@@ -9,7 +9,7 @@
     font-weight: bold;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-    transition-duration: 0.9s;
+    transition-duration: 1.2s;
 }
 
 body {
@@ -712,10 +712,18 @@ footer div:first-child{
 
 	header .logo{
 		height: auto;
+		width: 40px;
+		margin-top: 6px;
 	}
 	header .logoText{
 		color: rgb(255, 168, 109);
 		font-size: 18px;
 		margin-top: 16px;
+	}
+	#services .services .item .desc{
+	  width: 90%;
+	}
+	#services .services .item h5{
+		text-align: center;
 	}
 }
